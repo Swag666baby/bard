@@ -1,0 +1,7 @@
+module Commands
+	CLIENT.on_message_create do |payload|
+		if payload.content == "!commands"
+    		CLIENT.create_message(payload.channel_id, "", Discord::Embed.new(title: "list of commands", description: "!hsearch <desc>\n!pussy\n!ass\n!boobs\n!amateur\n!anal\n!anal-gape\n!arab\n!argentina\n!asian\n!ass-licking\n!asshole\n!babe\n!bbc\n!bbw\n!bdsm\n!big-tits\n!beach\n!beautiful\n!big-clit\n!big-cock\n!big-tits\n!bikini\n!blonde\n!blowjob\n!brazilian\n!ebony\n!facial\n!feet\n!gangbang\n!gay\n!glasses\n!gloryhole\n!goth\n!granny\n!gym\n!hairy\n!handjob\n!hardcore\n!high-heels\n!homemade\n!indian\n!interracial\n!japanese\n!jeans\n!korean\n!ladyboy\n!latina\n!legs\n!brunette\n!bukkake\n!cameltoe\n!casting\n!chinese\n!chubby\n!colombian\n!cosplay\n!cougar\n!cowgirl\n!creampie\n!cuckold\n!cum-in-mouth\n!cum-in-pussy\n!cumshot\n!curvy\n!cute\n!deepthroat\n!dildo\n!doggy-style\n!double-penetration\n!dress\n!tall\n!tattoo\n!teacher\n!teen\n!thai\n!thong\n!threesome\n!upskirt\n!venezuela\n!vintage\n!webcams\n!white\n!wife\n!yoga\n!yoga-pants\n!redhead\n!russian\n!saggy-tits\n!sandals\n!schoolgirl\n!secretary\n!selfie\n!shemale\n!short-hair\n!shorts\n!shower\n!skinny\n!skirt\n!solo\n!ssbbw\n!stockings\n!tall\n!tattoo\n!teacher\n!thai\n!thong\n!threesome", colour: 0xA4A6FF, author: Discord::EmbedAuthor.new("github.com!swag666baby")))
+		end
+	end
+end
